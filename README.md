@@ -9,5 +9,9 @@ Ouvrez SamPRO-UCP et déplacer les fichiers dans le répertoire source (ou autre
 
 Rendez-vous dans le fichier includes/config.php et éditer les paramètres selon vos besoins.
 
+##PHP.INI
+
+Vous devez activer fsockopen afin de pouvoir afficher le statut de vos serveurs.
+
 
 
