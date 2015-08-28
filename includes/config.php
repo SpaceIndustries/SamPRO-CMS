@@ -97,7 +97,8 @@
   $lastnewforum = "forum/news";
   
   // À propos de nous
-  $serveurabout = "SamPRO est un CMS basé sur le thème de GTA et compatible SA-MP développé par SpaceIndustries";
+  $serveurabout = "Et quia Mesopotamiae tractus omnes crebro inquietari sueti praetenturis et stationibus servabantur agrariis, laevorsum flexo itinere Osdroenae subsederat extimas partes, novum parumque
+			       aliquando temptatum commentum adgressus. quod si impetrasset, fulminis modo cuncta vastarat. erat autem quod cogitabat huius modi. ";
   
   // Lien de la présentation du serveur
   $serveuraboutforum = "forum/présentation";
