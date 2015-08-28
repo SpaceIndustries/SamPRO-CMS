@@ -80,7 +80,7 @@
   $portteamspeak3 = "9987";
   
   // Dernière nouvelle
-  $lastnew = "SamPRO est un UCP basé sur le thème de GTA et compatible SA-MP développé par SpaceIndustries";
+  $lastnew = "SamPRO est un CMS basé sur le thème de GTA et compatible SA-MP développé par SpaceIndustries";
   
   // Redirection de la dernière nouvelle sur le forum ou autres
   $lastnewforum = "forum/news";

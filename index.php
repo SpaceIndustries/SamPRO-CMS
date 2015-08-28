@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 </div>
-				<!-- gDernières nouvelles -->
+				<!-- Dernières nouvelles -->
 				<div class="col-md-4">
                 <div class="panel panel-default" style="background-color : rgba(0,0,0,0.8); border: black 1px solid;">
                     <div class="panel-heading" style="background-color : rgba(0,0,0,0.8); border: black 1px solid;">
@@ -62,7 +62,7 @@
                     </div>
                     <div class="panel-body color-white fixed-panel">
 						<div id="myCarousel" class="carousel slide" data-ride="carousel">
-						  <!-- Indicators -->
+						  <!-- Indications -->
 						  <ol class="carousel-indicators">
 							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 							<li data-target="#myCarousel" data-slide-to="1"></li>
@@ -72,7 +72,7 @@
 							<li data-target="#myCarousel" data-slide-to="5"></li>
 						  </ol>
 
-						  <!-- Wrapper for slides -->
+						  <!-- Images du slider -->
 						  <div class="carousel-inner" role="listbox">
 							<div class="item active">
 							  <img src="<?php echo $slider1 ?>">
@@ -99,7 +99,7 @@
 							</div>
 						  </div>
 
-						  <!-- Left and right controls -->
+						  <!-- Précédent & Suivant -->
 						  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 							<span class="sr-only">Précédent</span>
