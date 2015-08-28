@@ -16,14 +16,8 @@
 	<link href="HQ/datatables-responsive/css/dataTables.responsive.css" rel="stylesheet">
     <link href="css/HQ.css" rel="stylesheet">
 	<link href="css/sampro.css" rel="stylesheet">
-    <script src="HQ/jquery/dist/jquery.min.js"></script>
-    <script src="HQ/metisMenu/dist/metisMenu.min.js"></script>
-	<script src="HQ/datatables/media/js/jquery.dataTables.min.js"></script>
-    <script src="HQ/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
-    <script src="js/HQ.js"></script>
 	<link href="navbar.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <script src="/js/ie-emulation-modes-warning.js"></script>
   </head>
   <body>
   <br><br><br>
