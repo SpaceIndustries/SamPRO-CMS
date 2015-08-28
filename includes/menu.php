@@ -24,6 +24,24 @@
 				}
 				//echo '<li><a title ="Serveur Eteint ✖">Serveur : <i style="color:#aa0000" class="fa fa-times"></i> </a></li>';
 				?>
+				
+				<?php
+
+				$server = "voice.teamspeak.com";
+				$port = "9987";
+				$timeout = "10";
+
+				if ($server and $port and $timeout) {
+				$crshing = @fsockopen("$server", $port, $errno, $errstr, $timeout);
+				}
+				if($crshing) {
+				echo '<li><a title ="Serveur Allumer ✔">Serveur : <i style="color:green" class="fa fa-signal"></i> </a></li>';
+				}
+				else {
+				echo '<li><a title ="Serveur Eteint ✖">Serveur : <i style="color:#aa0000" class="fa fa-times"></i> </a></li>';
+				}
+				?>
+
 			  
 			  <li class="<?php if ($first_part=="playerlist.php") {echo "active"; }?>"><a href="playerlist.php"><i class="fa fa-users"></i> Joueurs : <?php echo $plr_count ?> / <?php echo $max_plrs ?> </a></li>
             </ul>
@@ -76,11 +94,11 @@
                 <a id="start" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-download"></i> Téléchargement <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
 				  <li class="dropdown-header">SA-MP</li>
-                  <li><a href="https://sa-mp.com/download.php"><img src="images/social/social_samp.png" /> SA-MP 0.3.7</a></li>
+                  <li><a href="https://sa-mp.com/download.php" target="_blank"><img src="images/social/social_samp.png" /> SA-MP 0.3.7</a></li>
 				  <li><a href="/forum/modding/"><img src="images/social/social_samp.png" /> Pack de Texture</a></li>
                   <li class="divider"></li>
                   <li class="dropdown-header">VoIP</li>
-                  <li><a href="https://teamspeak.com/downloads"><img src="images/social/social_teamspeak.png" /> TeamSpeak 3</a></li>
+                  <li><a href="https://teamspeak.com/downloads" target="_blank"><img src="images/social/social_teamspeak.png" /> TeamSpeak 3</a></li>
                 </ul>
               </li>
             </ul>

@@ -1,5 +1,5 @@
 ﻿<?php include('includes/header.php'); ?>
-  <body style="background: url(<?php echo $background ?>) no-repeat center fixed; margin:0; padding:0; -webkit-background-size: cover; background-size: cover;">
+  <body style="background: url(<?php echo $background ?>) repeat center fixed; margin:0; padding:0; -webkit-background-size: cover; background-size: cover;">
 
     <div class="container">
 

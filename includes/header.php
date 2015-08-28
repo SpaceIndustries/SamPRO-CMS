@@ -18,7 +18,7 @@
     <link href="HQ/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
     <link href="HQ/datatables-responsive/css/dataTables.responsive.css" rel="stylesheet">
     <link href="css/HQ.css" rel="stylesheet">
-	<link href="css/sa-quality.css" rel="stylesheet">
+	<link href="css/sampro.css" rel="stylesheet">
     <script src="HQ/jquery/dist/jquery.min.js"></script>
     <script src="HQ/metisMenu/dist/metisMenu.min.js"></script>
 	<script src="HQ/datatables/media/js/jquery.dataTables.min.js"></script>

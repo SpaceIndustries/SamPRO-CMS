@@ -14,7 +14,7 @@
   $websitedescription = "SamPRO-CMS";
   
   //URL du site
-  $urlsite = "https://google.com/";
+  $urlsite = "/";
   
   //Date
   $copydate = "2015-2016";
@@ -29,7 +29,7 @@
   $favicon = "favicon.ico";
   
   // Image de fond
-  $background = "images/bg_night_2.jpg";
+  $background = "images/bg_6.jpg";
   
   // Couleur RGBA du fond transparent (retrouver le code RGBA sur http://www.color-hex.com/color/ffffff
   $backgroundrgba = "255,255,255";
@@ -63,7 +63,7 @@
   $topsite = "http://www.root-top.com/topsite/gta/";
   
   // Nom du serveur SA-MP
-  $serveurname = "SA-Quality RP";
+  $serveurname = "SamPRO Role Play";
   
   #################### Configuration de l'index ####################
   
@@ -80,7 +80,7 @@
   $portteamspeak3 = "9987";
   
   // Dernière nouvelle
-  $lastnew = "SpaceIndustries CMS pour SA-MP";
+  $lastnew = "SamPRO est un UCP basé sur le thème de GTA et compatible SA-MP développé par SpaceIndustries";
   
   // Redirection de la dernière nouvelle sur le forum ou autres
   $lastnewforum = "forum/news";
@@ -90,6 +90,26 @@
   
   // Lien vers les vers la section captures d'écran sur le forum
   $serveurcaptures = "forum/captured'écran";
+  
+  #################### Configuration du slider ####################
+  
+  // Image 1
+  $slider1 = "images/bg_1.jpg";
+  
+  // Image 2
+  $slider2 = "images/bg_2.jpg";
+  
+  // Image 3
+  $slider3 = "images/bg_3.jpg";
+  
+  // Image 4
+  $slider4 = "images/bg_4.jpg";
+  
+  // Image 5
+  $slider5 = "images/bg_5.jpg";
+  
+  // Image 6
+  $slider6 = "images/bg_6.jpg";
   
   #################### Configuration de la carte interactive ####################
   

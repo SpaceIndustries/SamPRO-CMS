@@ -1,5 +1,5 @@
 ﻿<?php include('includes/header.php'); ?>
-  <body style="background: url(<?php echo $background ?>) no-repeat center fixed; margin:0; padding:0; -webkit-background-size: cover; background-size: cover;">
+  <body style="background: url(<?php echo $background ?>) repeat center fixed; margin:0; padding:0; -webkit-background-size: cover; background-size: cover;">
 
     <div class="container">
 
@@ -75,27 +75,27 @@
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner" role="listbox">
 							<div class="item active">
-							  <img src="images/bg_night_1.jpg">
+							  <img src="<?php echo $slider1 ?>">
 							</div>
 
 							<div class="item">
-							  <img src="images/bg_night_2.jpg">
+							  <img src="<?php echo $slider2 ?>">
 							</div>
 
 							<div class="item">
-							  <img src="images/bg_night_3.jpg">
+							  <img src="<?php echo $slider3 ?>">
 							</div>
 							
 							<div class="item">
-							  <img src="images/bg_night_1.jpg">
+							  <img src="<?php echo $slider4 ?>">
 							</div>
 
 							<div class="item">
-							  <img src="images/bg_night_2.jpg">
+							  <img src="<?php echo $slider5 ?>">
 							</div>
 							
 							<div class="item">
-							  <img src="images/bg_night_3.jpg">
+							  <img src="<?php echo $slider6 ?>">
 							</div>
 						  </div>
 
