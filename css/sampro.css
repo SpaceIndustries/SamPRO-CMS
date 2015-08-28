@@ -1,0 +1,50 @@
+/*************************************************************************
+                     Copyright (C), SA-QualityCMS
+                All rights reserved to the SA-Quality
+*************************************************************************/
+/*
+.navbar {
+
+background-color : rgba(0,0,0,0.5);
+
+}
+
+body {
+			background-image: url('images/bg_night_1.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100%;
+	}
+*/	
+ 
+.color-white{
+    color:white;
+}
+
+.color-black{
+    color:black;
+}
+
+.0-8{
+    background-color : rgba(0,0,0,0.8);
+	border: black 1px solid;
+}
+
+.0-5{
+    background-color : rgba(0,0,0,0.5);
+	border: black 1px solid;
+}
+
+.fixed-panel {
+    min-height: 200;
+    max-height: 200;
+    /*overflow-y: scroll;*/
+}
+
+.fond { 
+  margin:0;
+  padding:0;
+  background: url(images/bg_night_2.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
