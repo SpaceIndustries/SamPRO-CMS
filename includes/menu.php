@@ -12,36 +12,35 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <?php
-				$fp = @fsockopen("5.135.141.7", "2600", $errno, $errstr, 1);
-				if($fp >= 1)
-				{ 
-				echo '<li><a title ="Serveur Allumer ✔">Serveur : <i style="color:green" class="fa fa-signal"></i> </a></li>';
-				}
-				else
-				{ 
-				echo '<li><a title ="Serveur Eteint ✖" >Serveur : <i style="color:green" class="fa fa-signal"></i> </a></li>';
-				}
-				//echo '<li><a title ="Serveur Eteint ✖">Serveur : <i style="color:#aa0000" class="fa fa-times"></i> </a></li>';
-				?>
-				
-				<?php
+               <?php
 
-				$server = "voice.teamspeak.com";
-				$port = "9987";
+				$server = $ipteamspeak3;
+				$port = $portteamspeak3;
 				$timeout = "10";
 
 				if ($server and $port and $timeout) {
 				$crshing = @fsockopen("$server", $port, $errno, $errstr, $timeout);
 				}
 				if($crshing) {
-				echo '<li><a title ="Serveur Allumer ✔">Serveur : <i style="color:green" class="fa fa-signal"></i> </a></li>';
+				echo '<li><a title ="Serveur Allumer ✔">TS3 : <i style="color:green" class="fa fa-signal"></i> </a></li>';
 				}
 				else {
-				echo '<li><a title ="Serveur Eteint ✖">Serveur : <i style="color:#aa0000" class="fa fa-times"></i> </a></li>';
+				echo '<li><a title ="Serveur Eteint ✖">TS3: <i style="color:#aa0000" class="fa fa-times"></i> </a></li>';
 				}
 				?>
 
+			   <?php
+				$fp = @fsockopen($ipsamp, $portsamp, $errno, $errstr, 1);
+				if($fp >= 1)
+				{ 
+				echo '<li><a title ="Serveur Allumer ✔">SA-MP : <i style="color:green" class="fa fa-signal"></i> </a></li>';
+				}
+				else
+				{ 
+				echo '<li><a title ="Serveur Eteint ✖">SA-MP : <i style="color:#aa0000" class="fa fa-times"></i> </a></li>';
+				}
+				//echo '<li><a title ="Serveur Eteint ✖">SA-MP : <i style="color:#aa0000" class="fa fa-times"></i> </a></li>';
+				?>
 			  
 			  <li class="<?php if ($first_part=="playerlist.php") {echo "active"; }?>"><a href="playerlist.php"><i class="fa fa-users"></i> Joueurs : <?php echo $plr_count ?> / <?php echo $max_plrs ?> </a></li>
             </ul>

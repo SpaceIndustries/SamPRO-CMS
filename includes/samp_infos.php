@@ -1,8 +1,8 @@
 ﻿<?php
 	if (!isset($ip))
-		$ip = '51.254.10.217'; // Adresse IP du serveur SA-MP
+		$ip = $ipsamp; // Adresse IP du serveur SA-MP
 	if (!isset($port))
-		$port = 9999; // Port du serveur SA-MP
+		$port = $portsamp; // Port du serveur SA-MP
 
 	$fp = fsockopen('udp://' . $ip, $port, $errno, $errstr);
 	if (!$fp)
