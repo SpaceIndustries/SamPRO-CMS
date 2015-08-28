@@ -10,6 +10,9 @@
   //Nom du site
   $websitename = "SamPRO-CMS";
   
+  //Version
+  $siteversion = "v1";
+  
   //Petite description du site pour les recherche google
   $websitedescription = "SamPRO-CMS";
   
@@ -79,14 +82,25 @@
   // Port du serveur TeamSpeak 3
   $portteamspeak3 = "9987";
   
+  // Paragraphe au-dessus des boutons
+  $para1 = "<p>Et quia Mesopotamiae tractus omnes crebro inquietari sueti praetenturis et stationibus servabantur agrariis, laevorsum flexo itinere Osdroenae subsederat extimas partes, novum parumque
+			aliquando temptatum commentum adgressus. quod si impetrasset, fulminis modo cuncta vastarat. erat autem quod cogitabat huius modi. </p>";
+  
+  // Paragraphe en dessous des boutons
+  $para2 = "<p>Equitis Romani autem esse filium criminis loco poni ab accusatoribus neque his iudicantibus oportuit neque defendentibus nobis. Nam quod de pietate dixistis, est quidem ista nostra existimatio, sed iudicium certe parentis; quid nos opinemur, audietis ex iuratis; quid parentes sentiant, lacrimae matris incredibilisque maeror, squalor patris et haec praesens maestitia, quam cernitis, luctusque declarat.</p>
+			<p>Proinde die funestis interrogationibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset, quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci, stimulis reginae exsertantis aurem subinde per aulaeum, nec diluere obiecta permissi nec defensi periere conplures.</p>
+			<p>Has autem provincias, quas Orontes ambiens amnis imosque pedes Cassii montis illius celsi praetermeans funditur in Parthenium mare, Gnaeus Pompeius superato Tigrane regnis Armeniorum abstractas dicioni Romanae coniunxit.</p>";
   // Dernière nouvelle
   $lastnew = "SamPRO est un CMS basé sur le thème de GTA et compatible SA-MP développé par SpaceIndustries";
   
   // Redirection de la dernière nouvelle sur le forum ou autres
   $lastnewforum = "forum/news";
   
+  // À propos de nous
+  $serveurabout = "SamPRO est un CMS basé sur le thème de GTA et compatible SA-MP développé par SpaceIndustries";
+  
   // Lien de la présentation du serveur
-  $serveurabout = "forum/présentation";
+  $serveuraboutforum = "forum/présentation";
   
   // Lien vers les vers la section captures d'écran sur le forum
   $serveurcaptures = "forum/captured'écran";
@@ -113,11 +127,15 @@
   
   #################### Configuration de la carte interactive ####################
   
+  // Description de la carte
+  $gtamapname = "Carte de San Andreas";
+  
   // Nom de la carte interactive gtamap.net
   $gtamapname = "Carte de San Andreas";
   
   // Description de la carte interactive gtamap.net
-  $mapabouts = "Retrouvez l'emplacement des lieux importants grâce a la carte interactive du serveur ci-contre. Cliquez sur l'un des marqueurs pour en savoir plus !";
+  $mapabouts = "<p>Et quia Mesopotamiae tractus omnes crebro inquietari sueti praetenturis et stationibus servabantur agrariis, laevorsum flexo itinere Osdroenae subsederat extimas partes, novum parumque
+				aliquando temptatum commentum adgressus. quod si impetrasset, fulminis modo cuncta vastarat. erat autem quod cogitabat huius modi. </p>";
   
   // Lien de votre map gtamap.net
   $gtamapdotnet = "https://gtamap.net/embedded/45";

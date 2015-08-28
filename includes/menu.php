@@ -1,4 +1,4 @@
-    <!-- Top Navbar fix du haut -->
+    <!-- Menu du haut -->
       <nav style="background-color : rgba(0,0,0,0.8); border-bottom: <?php echo $topnavbarcolor ?> 3px solid;" class="navbar navbar-inverse navbar-fixed-top" height="5">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -49,16 +49,11 @@
 			<li><a href="<?php echo $twitter ?>" target="_blank"><img src="images/social/social_twitter.png" /></a></li>
 			<li><a href="<?php echo $youtube ?>" target="_blank"><img src="images/social/social_youtube.png" /></a></li>
             </ul>
-            <!--<ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
-              <li><a href="navbar-static-top/">Static top</a></li>
-              <li><a href="navbar-fixed-top/">Fixed top</a></li>
-            </ul>-->
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
+          </div>
+        </div>
       </nav>
 
-    <!-- Static Navbar menu -->
+    <!-- Menu principale -->
       <nav style="background-color : rgba(0,0,0,0.8);" class="navbar navbar-inverse">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -101,11 +96,6 @@
                 </ul>
               </li>
             </ul>
-            <!--<ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
-              <li><a href="navbar-static-top/">Static top</a></li>
-              <li><a href="navbar-fixed-top/">Fixed top</a></li>
-            </ul>-->
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
+          </div>
+        </div>
       </nav>

@@ -10,18 +10,15 @@
 			  <!-- Accueil -->
 			  <div class="col-md-12">
                 <div class="panel panel-default" style="background-color : rgba(0,0,0,0.8); border: black 1px solid;">
-                    <h1 class="color-white text-center"><i class="fa fa-fw fa-home"></i> Accueil HightQualityCMS</h1>
+                    <h1 class="color-white text-center"><i class="fa fa-fw fa-home"></i> Accueil <?php echo $websitename ?></h1>
                     <div class="panel-body color-white">
-						<p>Et quia Mesopotamiae tractus omnes crebro inquietari sueti praetenturis et stationibus servabantur agrariis, laevorsum flexo itinere Osdroenae subsederat extimas partes, novum parumque
-						aliquando temptatum commentum adgressus. quod si impetrasset, fulminis modo cuncta vastarat. erat autem quod cogitabat huius modi. </p>
+						<?php echo $para1?>
                     </div>
 					<div class="panel-body color-white text-center">
                         <a href="samp://<?php echo $ipsamp ?>:<?php echo $portsamp ?>"><button class="btn btn-default">Rejoindre le serveur SA-MP <i class="fa fa-angle-double-right"></i></button></a> ou <a href="ts3server://<?php echo $ipteamspeak3 ?>?port=<?php echo $portteamspeak3 ?>"><button class="btn btn-default">Rejoindre le TeamSpeak 3 <i class="fa fa-angle-double-right"></i></button></a>
                     </div>
 					<div class="panel-body color-white">
-						<p>Equitis Romani autem esse filium criminis loco poni ab accusatoribus neque his iudicantibus oportuit neque defendentibus nobis. Nam quod de pietate dixistis, est quidem ista nostra existimatio, sed iudicium certe parentis; quid nos opinemur, audietis ex iuratis; quid parentes sentiant, lacrimae matris incredibilisque maeror, squalor patris et haec praesens maestitia, quam cernitis, luctusque declarat.</p>
-						<p>Proinde die funestis interrogationibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset, quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci, stimulis reginae exsertantis aurem subinde per aulaeum, nec diluere obiecta permissi nec defensi periere conplures.</p>
-						<p>Has autem provincias, quas Orontes ambiens amnis imosque pedes Cassii montis illius celsi praetermeans funditur in Parthenium mare, Gnaeus Pompeius superato Tigrane regnis Armeniorum abstractas dicioni Romanae coniunxit.</p>
+						<?php echo $para2 ?>
                     </div>
                 </div>
                 </div>
@@ -32,11 +29,10 @@
                         <h4 class="color-white"><i class="fa fa-fw fa-info-circle"></i> À propos de nous</h4>
                     </div>
                     <div class="panel-body color-white fixed-panel">
-						<p>Et quia Mesopotamiae tractus omnes crebro inquietari sueti praetenturis et stationibus servabantur agrariis, laevorsum flexo itinere Osdroenae subsederat extimas partes, novum parumque
-						aliquando temptatum commentum adgressus. quod si impetrasset, fulminis modo cuncta vastarat. erat autem quod cogitabat huius modi. </p>
+						<?php echo $serveurabout ?>
                     </div>
 					<div class="panel-footer" style="background-color : rgba(0,0,0,0.8); border: black 1px solid; text-align:right;">
-                        <a href="<?php echo $serveurabout ?>"><button class="btn btn-default">En savoir plus</button></a>
+                        <a href="<?php echo $serveuraboutforum ?>"><button class="btn btn-default">En savoir plus</button></a>
                     </div>
                 </div>
                 </div>
