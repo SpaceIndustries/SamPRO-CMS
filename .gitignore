@@ -1,6 +1,6 @@
 # SamPRO-CMS
-robots.txt
-favicon.ico
+*.txt
+*.ico
 
 # Windows image file caches
 Thumbs.db
