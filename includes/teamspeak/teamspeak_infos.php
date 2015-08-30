@@ -6,7 +6,7 @@ TeamSpeak3::init();
  
 header('Content-Type: text/html; charset=utf8');
  
-$status = "offline";
+
 $count = 0;
 $max = 0;
  
@@ -18,5 +18,7 @@ try {
 }
 catch (Exception $e) {
     echo '<div style="background-color:red; color:white; display:block; font-weight:bold;">QueryError: ' . $e->getCode() . ' ' . $e->getMessage() . '</div>';
+    $status = "offline";
+ 
 }
 ?>
