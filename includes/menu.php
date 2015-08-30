@@ -17,11 +17,7 @@
 				$server = $ipteamspeak3;
 				$port = $portteamspeak3;
 				$timeout = "5";
-        if($status == "online_virtual"){
-           $status = "Online";
-        }else{
-          $status = "Offline";
-        }
+				
 				if ($server and $port and $timeout) {
 				$crshing = @fsockopen("udp://". $server, $port, $errno, $errstr, $timeout);
 				}
@@ -29,7 +25,7 @@
 				echo '<li><a title ="Serveur Allumer ✔">TS3 : <i style="color:green" class="fa fa-signal">' .  . '</i> (' . $count . '/' . $max . ') </a></li>';
 				}
 				else {
-				echo '<li><a title ="Serveur Eteint ✖">TS3 : <i style="color:#aa0000" class="fa fa-times">' . $status . '</i> (' . $count . '/' . $max . ')</a></li>';
+				echo '<li><a title ="Serveur Eteint ✖">TS3 : <i style="color:#aa0000" class="fa fa-times">' . $status . '</i> </a></li>';
 				}
 				?>
 
