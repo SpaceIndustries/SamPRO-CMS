@@ -6,7 +6,7 @@ TeamSpeak3::init();
  
 header('Content-Type: text/html; charset=utf8');
  
-$status = "offline";
+
 $count = 0;
 $max = 0;
  
@@ -15,8 +15,9 @@ try {
     $status = $ts3->getProperty("virtualserver_status");
     $count = $ts3->getProperty("virtualserver_clientsonline") - $ts3->getProperty("virtualserver_queryclientsonline");
     $max = $ts3->getProperty("virtualserver_maxclients");
+
 }
 catch (Exception $e) {
     echo '<div style="background-color:red; color:white; display:block; font-weight:bold;">QueryError: ' . $e->getCode() . ' ' . $e->getMessage() . '</div>';
-}
+    $status = "offline";
 ?>
