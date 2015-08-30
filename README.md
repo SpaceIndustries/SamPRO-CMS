@@ -1,5 +1,5 @@
 # SamPRO-CMS
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/SpaceIndustries/SamPRO-CMS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![Documentation Status](https://readthedocs.org/projects/sampro-cms/badge/?version=latest)](https://readthedocs.org/projects/sampro-cms/?badge=latest)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/SpaceIndustries/SamPRO-CMS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![Documentation Status](https://readthedocs.org/projects/sampro-cms/badge/?version=latest)](https://readthedocs.org/projects/sampro-cms/?badge=latest) [![Coverage Status](https://coveralls.io/repos/SpaceIndustries/SamPRO-CMS/badge.svg?branch=master&service=github)](https://coveralls.io/github/SpaceIndustries/SamPRO-CMS?branch=master)
 
 SamPRO est un UCP basé sur le thème de GTA et compatible SA-MP développé par SpaceIndustries
 
