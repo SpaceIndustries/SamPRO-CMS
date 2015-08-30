@@ -17,7 +17,7 @@
 				$server = $ipteamspeak3;
 				$port = $portteamspeak3;
 				$timeout = "5";
-        /*if($status == "online_virtual"){
+        /*if($status == "online virtual"){
            $status = "Online";
         }else{
           $status = "Offline";
