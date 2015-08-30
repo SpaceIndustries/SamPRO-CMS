@@ -1,11 +1,12 @@
 <?php include('includes/core.php'); ?>
-<?php include('includes/samp_infos.php'); ?>
+<?php include('includes/sa-mp/samp_infos.php'); ?>
+<?php include('includes/teamspeak/teamspeak_infos.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title><?php echo $websitetitle ?></title>
-    <link rel="icon" href="<?php echo $favicon ?>">
-    <meta name="description" content="<?php echo $websitedescription ?>">
+    <title><?php echo $websitetitle; ?></title>
+    <link rel="icon" href="<?php echo $favicon; ?>">
+    <meta name="description" content="<?php echo $websitedescription; ?>">
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,7 +23,7 @@
   <body>
   <br><br><br>
   <div class="text-center">
-  <a href="/"><img src="<?php echo $logo ?>" height="<?php echo $taillelogo ?>" /></a>
+  <a href="/"><img src="<?php echo $logo; ?>" height="<?php echo $taillelogo; ?>" /></a>
   </div>
   <br><br>
   </body>

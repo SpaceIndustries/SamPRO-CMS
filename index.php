@@ -1,24 +1,24 @@
 ﻿<?php include('includes/header.php'); ?>
-  <body style="background: url(<?php echo $background ?>) repeat center fixed; margin:0; padding:0; -webkit-background-size: cover; background-size: cover;">
+  <body style="background: url(<?php echo $background; ?>) repeat center fixed; margin:0; padding:0; -webkit-background-size: cover; background-size: cover;">
 
     <div class="container">
 
       <?php include('includes/menu.php'); ?>
 
-	      <div class="panel panel-default" style="background-color : rgba(<?php echo $backgroundrgba ?>,0.5); border: black 1px solid;">
+	      <div class="panel panel-default" style="background-color : rgba(<?php echo $backgroundrgba; ?>,0.5); border: black 1px solid;">
 			  <div class="panel-body">
 			  <!-- Accueil -->
 			  <div class="col-md-12">
                 <div class="panel panel-default" style="background-color : rgba(0,0,0,0.8); border: black 1px solid;">
-                    <h1 class="color-white text-center"><i class="fa fa-fw fa-home"></i> Accueil <?php echo $websitename ?></h1>
+                    <h1 class="color-white text-center"><i class="fa fa-fw fa-home"></i> Accueil <?php echo $websitename; ?></h1>
                     <div class="panel-body color-white">
-						<?php echo $para1?>
+						<?php echo $para1; ?>
                     </div>
 					<div class="panel-body color-white text-center">
-                        <a href="samp://<?php echo $ipsamp ?>:<?php echo $portsamp ?>"><button class="btn btn-default">Rejoindre le serveur SA-MP <i class="fa fa-angle-double-right"></i></button></a> ou <a href="ts3server://<?php echo $ipteamspeak3 ?>?port=<?php echo $portteamspeak3 ?>"><button class="btn btn-default">Rejoindre le TeamSpeak 3 <i class="fa fa-angle-double-right"></i></button></a>
+                        <a href="samp://<?php echo $ipsamp; ?>:<?php echo $portsamp; ?>"><button class="btn btn-default">Rejoindre le serveur SA-MP <i class="fa fa-angle-double-right"></i></button></a> ou <a href="ts3server://<?php echo $ipteamspeak3; ?>?port=<?php echo $portteamspeak3; ?>"><button class="btn btn-default">Rejoindre le TeamSpeak 3 <i class="fa fa-angle-double-right"></i></button></a>
                     </div>
 					<div class="panel-body color-white">
-						<?php echo $para2 ?>
+						<?php echo $para2; ?>
                     </div>
                 </div>
                 </div>
@@ -29,10 +29,10 @@
                         <h4 class="color-white"><i class="fa fa-fw fa-info-circle"></i> À propos de nous</h4>
                     </div>
                     <div class="panel-body color-white fixed-panel">
-						<?php echo $serveurabout ?>
+						<?php echo $serveurabout; ?>
                     </div>
 					<div class="panel-footer" style="background-color : rgba(0,0,0,0.8); border: black 1px solid; text-align:right;">
-                        <a href="<?php echo $serveuraboutforum ?>"><button class="btn btn-default">En savoir plus</button></a>
+                        <a href="<?php echo $serveuraboutforum; ?>"><button class="btn btn-default">En savoir plus</button></a>
                     </div>
                 </div>
                 </div>
@@ -43,10 +43,10 @@
                         <h4 class="color-white"><i class="fa fa-fw fa-info-circle"></i> Dernières nouvelles</h4>
                     </div>
                     <div class="panel-body color-white fixed-panel">
-						<p><?php echo $lastnew ?></p>
+						<p><?php echo $lastnew; ?></p>
                     </div>
 					<div class="panel-footer" style="background-color : rgba(0,0,0,0.8); border: black 1px solid; text-align:right;">
-                        <a href="<?php echo $lastnewforum ?>"><button class="btn btn-default">En savoir plus</button></a>
+                        <a href="<?php echo $lastnewforum; ?>"><button class="btn btn-default">En savoir plus</button></a>
                     </div>
                 </div>
                 </div>
@@ -71,27 +71,27 @@
 						  <!-- Images du slider -->
 						  <div class="carousel-inner" role="listbox">
 							<div class="item active">
-							  <img src="<?php echo $slider1 ?>">
+							  <img src="<?php echo $slider1; ?>">
 							</div>
 
 							<div class="item">
-							  <img src="<?php echo $slider2 ?>">
+							  <img src="<?php echo $slider2; ?>">
 							</div>
 
 							<div class="item">
-							  <img src="<?php echo $slider3 ?>">
+							  <img src="<?php echo $slider3; ?>">
 							</div>
 							
 							<div class="item">
-							  <img src="<?php echo $slider4 ?>">
+							  <img src="<?php echo $slider4; ?>">
 							</div>
 
 							<div class="item">
-							  <img src="<?php echo $slider5 ?>">
+							  <img src="<?php echo $slider5; ?>">
 							</div>
 							
 							<div class="item">
-							  <img src="<?php echo $slider6 ?>">
+							  <img src="<?php echo $slider6; ?>">
 							</div>
 						  </div>
 
@@ -107,7 +107,7 @@
 						</div>
                     </div>
 					<div class="panel-footer" style="background-color : rgba(0,0,0,0.8); border: black 1px solid; text-align:right;">
-                        <a href="<?php echo $serveurcaptures ?>"><button class="btn btn-default">En savoir plus</button></a>
+                        <a href="<?php echo $serveurcaptures; ?>"><button class="btn btn-default">En savoir plus</button></a>
                     </div>
                 </div>
                 </div>

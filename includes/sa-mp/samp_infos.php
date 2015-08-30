@@ -7,7 +7,7 @@
 	$fp = fsockopen('udp://' . $ip, $port, $errno, $errstr);
 	if (!$fp)
 	{
-		echo "<tr><td bgcolor=\"#2B5486\">Socket Error: $errno - $errstr</td></tr>\n";
+		//echo "<tr><td bgcolor=\"#2B5486\">Socket Error: $errno - $errstr</td></tr>\n";
 	}
 	else
 	{
