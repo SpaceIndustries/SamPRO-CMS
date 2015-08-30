@@ -20,10 +20,5 @@ try {
 catch (Exception $e) {
     echo '<div style="background-color:red; color:white; display:block; font-weight:bold;">QueryError: ' . $e->getCode() . ' ' . $e->getMessage() . '</div>';
     $status = "offline";
-<<<<<<< HEAD
+} 
 ?>
-=======
- 
-}
-?>
->>>>>>> origin/master
