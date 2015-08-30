@@ -17,11 +17,11 @@
 				$server = $ipteamspeak3;
 				$port = $portteamspeak3;
 				$timeout = "5";
-        if($status == "online_virtual"){
+        /*if($status == "online_virtual"){
            $status = "Online";
         }else{
           $status = "Offline";
-        }
+        }*/
 				if ($server and $port and $timeout) {
 				$crshing = @fsockopen("udp://". $server, $port, $errno, $errstr, $timeout);
 				}
