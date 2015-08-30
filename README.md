@@ -1,4 +1,6 @@
 # SamPRO-CMS
+
+[![Join the chat at https://gitter.im/SpaceIndustries/SamPRO-CMS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/SpaceIndustries/SamPRO-CMS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 SamPRO est un UCP basé sur le thème de GTA et compatible SA-MP développé par SpaceIndustries
 
 ## Requirements
