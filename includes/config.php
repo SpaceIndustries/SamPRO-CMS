@@ -82,6 +82,15 @@
   // Port du serveur TeamSpeak 3
   $portteamspeak3 = "9987";
   
+  // Utilisateur Query (ex: serveradmin)
+  $ts3queryuser = "serveradmin";
+  
+  // Mot de passe Query
+  $ts3querypassword = "motdepasse";
+  
+  // Port Query (ex: 10011)
+  $ts3queryport = "10011";
+  
   // Paragraphe au-dessus des boutons
   $para1 = "<p>Et quia Mesopotamiae tractus omnes crebro inquietari sueti praetenturis et stationibus servabantur agrariis, laevorsum flexo itinere Osdroenae subsederat extimas partes, novum parumque
 			aliquando temptatum commentum adgressus. quod si impetrasset, fulminis modo cuncta vastarat. erat autem quod cogitabat huius modi. </p>";
