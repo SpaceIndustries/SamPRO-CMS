@@ -29,7 +29,7 @@
 				echo '<li><a title ="Serveur Allumer ✔">TS3 : <i style="color:green" class="fa fa-signal">' .  . '</i> (' . $count . '/' . $max . ') </a></li>';
 				}
 				else {
-				echo '<li><a title ="Serveur Eteint ✖">TS3 : <i style="color:#aa0000" class="fa fa-times">' . $status . '</i> </a></li>';
+				echo '<li><a title ="Serveur Eteint ✖">TS3 : <i style="color:#aa0000" class="fa fa-times">' . $status . '</i> (' . $count . '/' . $max . ')</a></li>';
 				}
 				?>
 
