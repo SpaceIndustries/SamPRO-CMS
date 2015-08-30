@@ -1,6 +1,9 @@
 # SamPRO-CMS
 SamPRO est un UCP basé sur le thème de GTA et compatible SA-MP développé par SpaceIndustries
 
+## Requirements
+Un serveur web Apache2 ou Nginx avec PHP5, PHP5-curl et mod-rewrite activé sera nécessaire au bon fonctionnement du cms
+
 ##Installation de SamPRO-CMS
 
 Ouvrez SamPRO-UCP et déplacer les fichiers dans le répertoire source (ou autres) de votre site internet.
