@@ -1,5 +1,4 @@
 <?php include('includes/core.php'); ?>
-<?php include('includes/sa-mp/samp_infos.php'); ?>
 <?php include('includes/teamspeak/teamspeak_infos.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +22,7 @@
   <body>
   <br><br><br>
   <div class="text-center">
-  <a href="/"><img src="<?php echo $logo; ?>" height="<?php echo $taillelogo; ?>" /></a>
+  <a href="/"><img class="logo" src="<?php echo $logo; ?>" height="<?php echo $taillelogo; ?>" /></a>
   </div>
   <br><br>
   </body>

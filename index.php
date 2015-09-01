@@ -15,12 +15,18 @@
 						<?php echo $para1; ?>
                     </div>
 					<div class="panel-body color-white text-center">
-                        <a href="samp://<?php echo $ipsamp; ?>:<?php echo $portsamp; ?>"><button class="btn btn-default">Rejoindre le serveur SA-MP <i class="fa fa-angle-double-right"></i></button></a> ou <a href="ts3server://<?php echo $ipteamspeak3; ?>?port=<?php echo $portteamspeak3; ?>"><button class="btn btn-default">Rejoindre le TeamSpeak 3 <i class="fa fa-angle-double-right"></i></button></a>
+					<div class="btn-group text-center">
+                        <a href="samp://<?php echo $ipsamp; ?>:<?php echo $portsamp; ?>"><button class="btn btn-default">Rejoindre le serveur SA-MP <i class="fa fa-angle-double-right"></i></button></a>
+						<p class="help-block"><i><?php echo $ipsamp; ?>:<?php echo $portsamp; ?></i></p>
                     </div>
+					<div class="btn-group text-center">
+                        <a href="ts3server://<?php echo $ipteamspeak3; ?>?port=<?php echo $portteamspeak3; ?>"><button class="btn btn-default">Rejoindre le TeamSpeak 3 <i class="fa fa-angle-double-right"></i></button></a>
+						<p class="help-block"><i><?php echo $ipteamspeak3; ?>:<?php echo $portteamspeak3; ?></i></p>
+                    </div>
+					</div>
 					<div class="panel-body color-white">
 						<?php echo $para2; ?>
                     </div>
-                </div>
                 </div>
 				<!-- À propos -->
 			    <div class="col-md-4">
@@ -56,7 +62,7 @@
                     <div class="panel-heading" style="background-color : rgba(0,0,0,0.8); border: black 1px solid;">
                         <h4 class="color-white"><i class="fa fa-fw fa-camera"></i> Captures d'écran</h4>
                     </div>
-                    <div class="panel-body color-white fixed-panel">
+                    <div class="panel-body color-white slider">
 						<div id="myCarousel" class="carousel slide" data-ride="carousel">
 						  <!-- Indications -->
 						  <ol class="carousel-indicators">
