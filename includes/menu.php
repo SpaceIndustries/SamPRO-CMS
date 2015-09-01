@@ -37,7 +37,7 @@
 				}
 				?>
 			  
-			  <li class="color-white"><a><i class="fa fa-users"></i> Joueurs : <?php echo $plr_count; ?> / <?php echo $max_plrs; ?> </a></li>
+			  <li class="color-white"><a href="playerlist.php"><i class="fa fa-users"></i> Liste des joueurs connectés </a></li>
             </ul>
 			<ul class="nav navbar-nav navbar-right">
 			<li><a href="<?php echo $facebook ?>" target="_blank"><img src="images/social/social_facebook1.png" /></a></li>
