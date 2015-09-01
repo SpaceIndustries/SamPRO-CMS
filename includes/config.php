@@ -100,7 +100,7 @@
 			<p>Proinde die funestis interrogationibus praestituto imaginarius iudex equitum resedit magister adhibitis aliis iam quae essent agenda praedoctis, et adsistebant hinc inde notarii, quid quaesitum esset, quidve responsum, cursim ad Caesarem perferentes, cuius imperio truci, stimulis reginae exsertantis aurem subinde per aulaeum, nec diluere obiecta permissi nec defensi periere conplures.</p>
 			<p>Has autem provincias, quas Orontes ambiens amnis imosque pedes Cassii montis illius celsi praetermeans funditur in Parthenium mare, Gnaeus Pompeius superato Tigrane regnis Armeniorum abstractas dicioni Romanae coniunxit.</p>";
   // Dernière nouvelle
-  $lastnew = "SamPRO est un CMS basé sur le thème de GTA et compatible SA-MP développé par SpaceIndustries";
+  $lastnew = "SamPRO est un CMS basé sur le thème de GTA, compatible SA-MP et développé par SpaceIndustries";
   
   // Redirection de la dernière nouvelle sur le forum ou autres
   $lastnewforum = "forum/news";
