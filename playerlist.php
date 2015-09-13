@@ -1,4 +1,6 @@
 ﻿<?php include('includes/header.php'); ?>
+  <body style="background: url(<?php echo $background; ?>) repeat center fixed; margin:0; padding:0; -webkit-background-size: cover; background-size: cover;">
+
 <?php
 require "includes/sa-mp/SampQueryAPI.php";
 $query = new SampQueryAPI($ipsamp, $portsamp);
@@ -7,23 +9,22 @@ if($query->isOnline())
 $aInformation = $query->getInfo();
 $aServerRules = $query->getRules();
 ?>
-  <body style="background-image: url('<?php echo $background ?>'); background-repeat: no-repeat; background-attachment: fixed; background-size: 100%;">
 
     <div class="container">
 
       <?php include('includes/menu.php'); ?>
 
-	      <div class="panel panel-default" style="background-color : rgba(<?php echo $backgroundrgba ?>,0.8); border: black 1px solid;">
+	      <div class="grey darken-4 z-depth-2" >
 			  <div class="panel-body">
 				<div class="row">
 							<!-- /.panel-heading -->
 							<div class="panel-body color-white">
 							<!-- Liste des joueurs -->
-							<div class="col-md-12">
-							<div class="panel panel-default" style="background-color : rgba(0,0,0,0.8); border: black 1px solid;">
-								<h1 class="color-white text-center"><i class="fa fa-th-list"></i> Liste des joueurs connectés (<?= $aInformation['players'] ?> / <?= $aInformation['maxplayers'] ?>)</h1>
-								<div class="panel-body color-white">
-								<div class="table-responsive">
+							<div class="col s12 center-align ">
+							<div class="panel panel-default">
+								<h4 class="color-white text-center"><i class="fa fa-th-list"></i> Liste des joueurs connectés (<?= $aInformation['players'] ?> / <?= $aInformation['maxplayers'] ?>)</h4>
+								<div class="panel-body center-align color-white">
+								<div class="table-responsive ">
 										<?php
 										
 										$aPlayers = $query->getDetailedPlayers();
@@ -35,7 +36,8 @@ $aServerRules = $query->getRules();
 										else
 										{
 											?>
-											<table class="table color-white">
+											<div class="">
+											<table class="col s6  table color-white">
 												<tr>
 													<td><i class="fa fa-sort-amount-asc"> <b>ID</b></td>
 													<td><i class="fa fa-user"></i> <b>Prénom_Nom</b></td>
@@ -55,7 +57,7 @@ $aServerRules = $query->getRules();
 												<?php
 											}
 										
-											echo '</table>';
+											echo '</table></div>';
 										}
 									}
 									?>
