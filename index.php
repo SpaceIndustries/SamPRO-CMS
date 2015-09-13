@@ -9,7 +9,7 @@
 			  <div class="panel-body">
 			  <!-- Accueil -->
 			  <div class="col s12">
-                <div class="transparent ">
+                <div>
                     <h1 class="color-white center"><span class="fa fa-fw fa-home"></span> Accueil <?php echo $websitename; ?></h1>
                     <div class="panel-body color-white">
 						<?php echo $para1; ?>
