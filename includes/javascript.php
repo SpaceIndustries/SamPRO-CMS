@@ -1,8 +1,9 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
 <!-- SamPRO-UCP -->
 <script src="HQ/jquery/dist/jquery.min.js"></script>
 <script src="HQ/metisMenu/dist/metisMenu.min.js"></script>
