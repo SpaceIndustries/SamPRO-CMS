@@ -28,6 +28,20 @@
           echo "<li><a title ='Serveur Allumer ✔'>TS3 (" . $count . "/" . $max . ") : <span style='color:green' class='fa fa-signal'></span></a></li>";
         }
         ?>
+         <?php
+        $serversa = $ipsamp;
+        $portsa = $portsamp;
+        $timeout = "5";
+        if ($server and $port and $timeout) {
+        $crshing = @fsockopen("udp://". $serversa, $portsa, $errno, $errstr, $timeout);
+        }
+        if($crshing) {
+        echo '<li><a title ="Serveur Allumer ✔">SA-MP : <span style="color:green" class="fa fa-signal"></span> </a></li>';
+        }
+        else {
+        echo '<li><a title ="Serveur Eteint ✖">SA-MP : <span style="color:#aa0000" class="fa fa-times"></span> </a></li>';
+        }
+        ?>
       </ul>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="map.php">Carte du serveur</a></li>
